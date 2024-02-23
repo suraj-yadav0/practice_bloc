@@ -1,0 +1,1 @@
+List  l1 = ["HELLO", "Namste", "ChliyeShuru karte hai"];
