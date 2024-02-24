@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice_bloc/data/global.dart';
 import 'package:practice_bloc/list.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -18,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: ListView(
         padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-        children: List.generate(2, (index) => MyList())
+        children: List.generate(l1.length, (index) => MyList(index, idx: index))
         // MyList.toList(),
       ),
     );
